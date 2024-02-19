@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A8C40C52B83247B009BD335 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3ABE7E8F2B82E75F00813013 /* AVP-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVP-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABE7E932B82E75F00813013 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		3ABE7E962B82E75F00813013 /* AVP_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVP_PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -58,9 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8C40C62B832996009BD335 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		3ABE7E862B82E75F00813013 = {
 			isa = PBXGroup;
 			children = (
+				3A8C40C52B83247B009BD335 /* README.md */,
+				3A8C40C62B832996009BD335 /* Screenshots */,
 				3ABE7E912B82E75F00813013 /* AVP-Playground */,
 				3ABE7E922B82E75F00813013 /* Packages */,
 				3ABE7EA92B82E76100813013 /* AVP-PlaygroundTests */,
