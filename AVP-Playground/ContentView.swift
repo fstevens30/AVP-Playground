@@ -13,17 +13,20 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("Welcome to the Cat Fact Generator.")
+            Text("Cat Facts 🐱")
                 .font(.title)
+            Spacer()
             Text(catFact)
                 .padding()
-            Button("Tell me a fact.") {
+            Spacer()
+            Button("Generate Fact") {
                 fetchCatFact()
             }
             .background(Color.blue)
             .foregroundColor(.white)
             .clipShape(RoundedRectangle(cornerRadius: 25.0))
         }
+        .padding()
     }
     
     func fetchCatFact() {
